@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-test-tekton2-gitops-repository
+spec:
+  url: https://github.com/stephanie-cy/go-test-tekton2-gitops
